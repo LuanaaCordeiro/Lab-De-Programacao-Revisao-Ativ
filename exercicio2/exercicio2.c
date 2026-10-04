@@ -81,13 +81,13 @@ void preencher_vendas(float vendas[4][5])
     }
 }
 
-main()
+int main()
 {
     float vendas[4][5];
 
     preencher_vendas(vendas);
 
-    printf("A filial campea foi a Filial: %d\n\n", filial_campea(vendas););
+    printf("A filial campea foi a Filial: %d\n\n", filial_campea(vendas));
 
     relatorio_diario(vendas);
 
